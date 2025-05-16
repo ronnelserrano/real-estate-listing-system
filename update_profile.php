@@ -29,4 +29,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <label>Upload Profile Picture:</label><br>
     <input type="file" name="profile_picture"><br><br>
     <button type="submit">Upload</button>
-</form>
+</form> 

@@ -7,7 +7,7 @@ use db_batch6_rels;
 CREATE TABLE agents (
     agent_id INT PRIMARY KEY AUTO_INCREMENT,
     full_name VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,git 
     phone VARCHAR(20),
     agency VARCHAR(100)
 );
